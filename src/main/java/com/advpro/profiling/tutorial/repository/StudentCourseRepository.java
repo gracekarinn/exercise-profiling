@@ -6,11 +6,12 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
+import java.util.Collection;
 
 /**
  * @author muhammad.khadafi
  */
 @Repository
 public interface StudentCourseRepository extends JpaRepository<StudentCourse, Long> {
-    List<StudentCourse> findByStudentId(Long studentId);
+    List<StudentCourse> findByStudentIdIn(Collection<Long> studentIds);
 }
