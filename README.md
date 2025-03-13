@@ -70,11 +70,17 @@ timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success
 Profiler:
 ![Screenshot 2025-03-13 at 10.35.09 (2).png](public/Screenshot%202025-03-13%20at%2010.35.09%20%282%29.png)
 
-After profiling:
+After optimization:
+
+JMeter
+![Screenshot 2025-03-13 at 11.06.11.png](public/Screenshot%202025-03-13%20at%2011.06.11.png)
 
 Profiler:
+![Screenshot 2025-03-13 at 11.07.38 (2).png](public/Screenshot%202025-03-13%20at%2011.07.38%20%282%29.png)
 
-
+| Before  | After  | Percentage |
+|---------|--------|------------|
+| 7059 ms | 500 ms | 92.91%     |
 
 `all-student-name` before optimization:
 
@@ -103,6 +109,18 @@ JMeter:
 
 Profiler:
 ![Screenshot 2025-03-13 at 10.37.22 (2).png](public/Screenshot%202025-03-13%20at%2010.37.22%20%282%29.png)
+
+After optimitization:
+
+JMeter:
+![Screenshot 2025-03-13 at 11.20.14.png](public/Screenshot%202025-03-13%20at%2011.20.14.png)
+Profiler:
+![Screenshot 2025-03-13 at 11.22.16.png](public/Screenshot%202025-03-13%20at%2011.22.16.png)
+
+| Before | After  | Percentage |
+|--------|--------|------------|
+| 785 ms | 180 ms | 77.07%     |
+
 
 `highest-gpa` before optimization:
 
@@ -142,3 +160,15 @@ timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success
 
 Profiler:
 ![Screenshot 2025-03-13 at 10.38.49 (2).png](public/Screenshot%202025-03-13%20at%2010.38.49%20%282%29.png)
+
+
+After optimitization:
+
+JMeter:
+![Screenshot 2025-03-13 at 11.25.03.png](public/Screenshot%202025-03-13%20at%2011.25.03.png)
+Profiler:
+![Screenshot 2025-03-13 at 11.26.42.png](public/Screenshot%202025-03-13%20at%2011.26.42.png)
+
+| Before | After | Percentage |
+|--------|-------|------------|
+| 180 ms | 90 ms | 50%        |
